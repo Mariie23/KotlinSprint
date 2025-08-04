@@ -8,7 +8,7 @@ fun main() {
     val result3 = 3
     val result4 = 5
 
-    val arithmeticMean = ((result1 + result2 + result3 + result4) / 1.0 / numberOfStudents)
+    val arithmeticMean = (result1 + result2 + result3 + result4).toFloat() / numberOfStudents
     println(arithmeticMean)
 
 }
