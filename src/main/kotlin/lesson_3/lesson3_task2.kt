@@ -1,9 +1,9 @@
 package org.example.lesson_3
 
 fun main() {
-    var name = "Татьяна"
+    val name = "Татьяна"
     var surname = "Андреева"
-    var patronymic = "Сергеевна"
+    val patronymic = "Сергеевна"
     var age = 20
     println("$surname $name $patronymic, $age")
 
